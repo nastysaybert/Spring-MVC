@@ -16,6 +16,7 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 //Все то, что делали в файле applicationContextMVC.xml
 @Configuration
 @ComponentScan("ru.saybert.nasty")      //<context:component-scan base-package="ru.saybert.nasty"/>
+                                        //сканирует в папке и ее подпапках
 @EnableWebMvc                           // <mvc:annotation-driven/>
 public class SpringConfig implements WebMvcConfigurer {
 
